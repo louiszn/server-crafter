@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"module": "ESNext",
+		"target": "ES2024",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"noUncheckedSideEffectImports": true
+	}
+}
