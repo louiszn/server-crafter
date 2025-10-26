@@ -1,0 +1,14 @@
+{
+	"name": "@sc/rest",
+	"private": true,
+	"main": "dist/index.js",
+	"type": "module",
+	"scripts": {
+		"build": "tsup"
+	},
+	"packageManager": "pnpm@10.18.3",
+	"devDependencies": {
+		"@types/node": "^20.19.23",
+		"tsup": "^8.5.0"
+	}
+}
