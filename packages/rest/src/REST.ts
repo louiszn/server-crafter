@@ -32,7 +32,7 @@ export interface ResponseError {
 export type RESTRequestInit = Omit<RequestInit, "method" | "body">;
 
 export abstract class REST {
-	public static baseUrl: string = process.env.NEXT_PUBLIC_API_URL!;
+	public static baseUrl: string = process.env.NEXT_PUBLIC_API_URL || "/api/";
 
 	public static get<T>(endpoint: string, init?: RESTRequestInit) {
 		return this.request<T>(RequestMethod.Get, endpoint, undefined, init);
